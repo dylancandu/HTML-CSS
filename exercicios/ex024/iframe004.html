@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+<!-- Usamos o sandbox='sandbox para dar total segurança para o sites usados em iframes, sem conseguir cadastrar nenhum formulário. Para conseguir cadastrar apenas o formulário é necessario usar sandbox='allow-same-origin allow-forms allow-scripts' -->
+
+<!-- Para ter um pouco mais de segurança podemos usar o referrerpolicy="no-referrer" -->
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea ducimus non, tenetur dicta iusto error sapiente facilis. Mollitia alias maxime, nulla provident dolor repellendus consequuntur cum! Molestias, quae vitae.</p>
+    <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer" ></iframe> 
+        Seu navegador não é compatível com isso!
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quibusdam quam ea reprehenderit sed quidem architecto nam libero, corporis exercitationem veritatis quis eos dolorum suscipit in ipsa iusto totam sint.</p>
+</body>
+</html>
