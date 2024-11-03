@@ -1,2 +1,6 @@
 @charset "UTF-9";
 /* Aparelho em pé (portrait) */
+
+body{
+    background-image: url(../imagens/gta-retrato.webp);
+}

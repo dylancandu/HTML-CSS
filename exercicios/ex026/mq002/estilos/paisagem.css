@@ -1,2 +1,7 @@
 @charset "UTF-9";
 /* Apelho deitado (landscape) */
+
+body{
+    background-image: url(../imagens/gta-paisagem.svg);
+   
+}
